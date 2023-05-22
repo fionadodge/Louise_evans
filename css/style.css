@@ -112,11 +112,30 @@ body > div > div.background > div > p:nth-child(1), body > div > div.background 
     padding: 10px;
 }
 
+.contact{
+  position:absolute;
+  top: 100;
+}
+
 @media (max-width: 600px) {
     .aside, .section {
       width: 100%;
       height: auto;
     }
+
+      /* Contact page page */
+
+      .email {
+        display:flex;
+        width: 100%;
+        padding: 10px;
+      }
+        
+      .link {
+        align-self: center;
+        padding: 10px;
+      }
+
   }
 
 @media (max-width: 378px) {
@@ -149,7 +168,7 @@ body > div > div.background > div > p:nth-child(1), body > div > div.background 
     body > div > div.background > div > p:nth-child(2) {
       width: 100%;
     }
-  }
+}
 
 /* Services page */
 
@@ -164,7 +183,7 @@ body > header > div > div:nth-child(2) > img {
 body > header > div > div:nth-child(1) > a > i {
   position: absolute;
   top: 40;
-  left: 10;
+  left: 30;
 }
 
 body > header {
@@ -248,11 +267,56 @@ body > header {
     align-items: center;
   }
 
+/* Education Skills Education page */
+  .table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  .td, .th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 50px;
+  }
+  
+  .tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+
+    /* Contact page page */
+
+  .email {
+    display:flex;
+    width: 100%;
+    padding: 10px;
+  }
+    
+  .link {
+    align-self: center;
+    padding: 10px;
+  }
+
   @media screen and (max-width: 768px) {
     .column1 {
       width: 100%;
       padding: 0;
     }
-  }
 
-  
+    .table {
+      overflow-x: auto;
+    }
+      /* Contact page page */
+
+    .email {
+      display:flex;
+      width: 100%;
+      padding: 10px;
+    }
+        
+    .link {
+      align-self: center;
+      padding: 10px;
+    }
+  }
